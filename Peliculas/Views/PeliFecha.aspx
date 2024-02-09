@@ -30,7 +30,11 @@
                 </div>
             </nav>
             <h1>Peliculas por Fecha</h1>
+
+            <asp:Calendar ID="calendar" runat="server" OnSelectionChanged="calendar_SelectionChanged"></asp:Calendar>
+
             <asp:Table ID="calendarTable" runat="server" Width="100%">
+
             </asp:Table>
         </div>
     </form>
