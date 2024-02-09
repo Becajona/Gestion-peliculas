@@ -28,6 +28,8 @@
                     <a class="nav-link active" aria-current="page" href="Index.aspx">Inicio</a>
                     <a class="nav-link" href="Peliculas.aspx">Peliculas</a>
                     <a class="nav-link" href="Carrito.aspx">Carrito de compras</a>
+                    <a class="nav-link" href="PeliFecha.aspx">Peliculas por Fecha</a>
+
                 </div>
             </div>
         </div>

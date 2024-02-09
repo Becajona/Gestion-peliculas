@@ -13,17 +13,23 @@
     <form id="form1" runat="server">
         <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Venta de Películas</a>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="Index.aspx">Inicio</a>
-                            <a class="nav-link" href="Peliculas.aspx">Peliculas</a>
-                            <a class="nav-link" href="Carrito.aspx">Carrito de compras</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="Index.aspx">Venta de Películas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="Index.aspx">Inicio</a>
+                <a class="nav-link" href="Peliculas.aspx">Peliculas</a>
+                <a class="nav-link" href="Carrito.aspx">Carrito de compras</a>
+                <a class="nav-link" href="PeliFecha.aspx">Peliculas por Fecha</a>
+
+            </div>
+        </div>
+    </div>
+</nav>
 
 
             
@@ -97,6 +103,8 @@
     <h2>Listado de Películas</h2>
     <!-- Contenido del listado de películas -->
 </div>
+
+            <button <a href="PeliFecha.aspx">VentasXFecha.aspx</a> ></button>
 
             
         </div>
