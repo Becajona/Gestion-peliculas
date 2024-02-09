@@ -21,5 +21,7 @@ namespace Peliculas.Views
             // Realiza acciones con la fecha seleccionada, como consultas de base de datos, cálculos, etc.
         }
 
+
+
     }
 }

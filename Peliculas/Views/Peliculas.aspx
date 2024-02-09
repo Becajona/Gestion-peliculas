@@ -103,8 +103,32 @@
     <h2>Listado de Películas</h2>
     <!-- Contenido del listado de películas -->
 </div>
-
-            <button <a href="PeliFecha.aspx">VentasXFecha.aspx</a> ></button>
+            
+            <br />  
+            <br />
+            <br />
+            <br />
+            
+ <footer class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Autor: Jonathan Vega</p>
+                <p>Universidad Tecnológica de Puebla</p>
+                <p>Números de contacto: (123) 456-7890</p>
+                <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="Imagenes/instag.png"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <!-- Agrega más íconos o cambia los enlaces según sea necesario -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
             
         </div>

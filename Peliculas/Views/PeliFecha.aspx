@@ -31,11 +31,74 @@
             </nav>
             <h1>Peliculas por Fecha</h1>
 
-            <asp:Calendar ID="calendar" runat="server" OnSelectionChanged="calendar_SelectionChanged"></asp:Calendar>
+            <br />
+            <br />
+             <div class="row">
+        <div class="col-md-12">
+            <h3>Consultar por ID</h3>
+            <input type="text" class="form-control mb-3" id="txtIdPelicula" placeholder="Ingrese el ID de la película" />
+           
+            <button type="button" class="btn btn-primary" onclick="consultarPorId()">Consultar</button>
+        </div>
+    </div>
+            <br />
+            <br />
+            <br />
+            <h1>Detalle de Venta</h1>
+            
+            <div>
+                <asp:Label ID="lblCantidadPeliculas" runat="server" Text="Cantidad de películas adquiridas:"></asp:Label>
+                <asp:Label ID="lblPrecioTotal" runat="server" Text="Precio total de la venta:"></asp:Label>
+            </div>
 
+            <!-- Falta agregar logica-->
+            <br />
+            <br />
+            <asp:Calendar ID="calendar" runat="server" OnSelectionChanged="calendar_SelectionChanged"></asp:Calendar>
+                
             <asp:Table ID="calendarTable" runat="server" Width="100%">
 
             </asp:Table>
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <div class="text-center text-bg-primary">
+                <h1>•Fecha de la venta realizada</h1>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+ <footer class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Autor: Jonathan Vega</p>
+                <p>Universidad Tecnológica de Puebla</p>
+                <p>Números de contacto: (123) 456-7890</p>
+                <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="Imagenes/instag.png"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <!-- Agrega más íconos o cambia los enlaces según sea necesario -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
         </div>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 

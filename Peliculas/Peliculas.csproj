@@ -85,6 +85,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Estilos\Styles.css" />
     <Content Include="Imagenes\363.jpg" />
+    <Content Include="Imagenes\instag.png" />
     <Content Include="Views\Carrito.aspx" />
     <Content Include="Views\Index.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -99,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Peliculas.Entities\Pelicula.cs" />
+    <Compile Include="Ventas DAL\VentaService.cs" />
     <Compile Include="Views\Carrito.aspx.cs">
       <DependentUpon>Carrito.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -264,7 +266,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Contratos\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
